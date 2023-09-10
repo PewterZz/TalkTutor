@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:talktutor/project/provider/AuthProvider.dart';
+import 'project/auth_pages/login.dart';
 import 'project/lessons.dart';
 import 'project/profile.dart';
 import 'project/home.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(Login());
 }
 
 class MyApp extends StatelessWidget {
